@@ -64,6 +64,4 @@ ionic serve
     ionic cordova run android
     ```
 
-## Firebase
 
-O projeto está configurado para usar o Firebase. As credenciais de configuração podem ser encontradas no arquivo `src/app/app.module.ts`. Para um ambiente de produção, é recomendável substituir essas credenciais pelas do seu próprio projeto Firebase.
