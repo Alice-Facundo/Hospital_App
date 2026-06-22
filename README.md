@@ -1,67 +1,44 @@
 # Hospital App
 
-O Hospital App é um aplicativo móvel desenvolvido com Ionic e Angular, projetado para facilitar o gerenciamento de informações em um ambiente hospitalar, incluindo pacientes, médicos e clínicas. Ele utiliza o Firebase para autenticação, armazenamento de dados em tempo real e armazenamento de arquivos, tornando-o uma solução robusta e escalável.
+The Hospital App is a mobile application developed with Ionic and Angular, designed to facilitate information management in a hospital environment, including patients, doctors, and clinics. It utilizes Firebase for authentication, real-time data storage, and file storage, making it a robust and scalable solution.
 
-## Funcionalidades
+## Features
 
-O aplicativo oferece uma gama de funcionalidades para otimizar a gestão de dados de saúde:
+The application offers a range of features to optimize healthcare data management:
 
-  * **Autenticação de Usuários:** Sistema seguro de login e cadastro de novos usuários.
-  * **Gerenciamento de Pacientes:** Permite cadastrar, visualizar, editar e excluir registros de pacientes.
-  * **Gestão de Clínicas:** Oferece funcionalidades para adicionar e gerenciar informações sobre as clínicas, incluindo dados de localização.
-  * **Cadastro de Médicos:** Ferramentas para manter um registro detalhado dos médicos, incluindo suas especialidades.
-  * **Configurações de Perfil:** Os usuários podem visualizar e atualizar suas informações de perfil, incluindo a foto.
-  * **Localização e Mapas:** Integração com o Google Maps para visualização da localização de clínicas e endereços.
-  * **Funcionalidades Nativas do Dispositivo:** Acesso à câmera e galeria de fotos para upload de imagens, utilizando os plugins do Cordova.
+  * **User Authentication:** Secure login and registration system for new users.
+  * **Patient Management:** Allows registering, viewing, editing, and deleting patient records.
+  * **Clinic Management:** Provides features to add and manage clinic information, including location data.
+  * **Doctor Registration:** Tools to maintain a detailed registry of doctors, including their specialties.
+  * **Profile Settings:** Users can view and update their profile information, including their photo.
+  * **Location and Maps:** Google Maps integration for viewing clinic locations and addresses.
+  * **Native Device Features:** Access to the camera and photo gallery for image uploads, utilizing Cordova plugins.
 
-##  Tecnologias Utilizadas
+## Technologies Used
 
-O projeto foi construído com as seguintes tecnologias:
+The project was built with the following technologies:
 
-  * **Ionic:** Plataforma para desenvolvimento de aplicativos móveis híbridos.
-  * **Angular:** Framework para a construção da interface do usuário.
-  * **Firebase:** Utilizado para autenticação, banco de dados em tempo real (Firestore) e armazenamento de arquivos.
-  * **Cordova:** Permite o acesso a funcionalidades nativas do dispositivo, como câmera e geolocalização.
-  * **TypeScript:** Linguagem de programação principal do projeto.
-  * **Sass:** Para estilização avançada dos componentes.
+  * **Ionic:** Platform for developing hybrid mobile applications.
+  * **Angular:** Framework for building the user interface.
+  * **Firebase:** Used for authentication, real-time database (Firestore), and file storage.
+  * **Cordova:** Enables access to native device features, such as the camera and geolocation.
+  * **TypeScript:** The main programming language of the project.
+  * **Sass:** For advanced component styling.
 
-##  Pré-requisitos
+## Prerequisites
 
-Antes de iniciar, certifique-se de ter o seguinte instalado:
+Before starting, ensure you have the following installed:
 
-  * Node.js e npm
+  * Node.js and npm
   * Ionic CLI
   * Cordova CLI
   * Angular CLI
 
-##  Instalação e Execução
+## Installation and Execution
 
-Siga os passos abaixo para configurar e executar o projeto em seu ambiente local:
+Follow the steps below to set up and run the project in your local environment:
 
-**1. Navegue até o diretório do projeto:**
+**1. Navigate to the project directory:**
 
 ```bash
 cd hospital_app
-```
-
-**3. Instale as dependências:**
-
-```bash
-npm install
-```
-
-**4. Execute o projeto no navegador:**
-
-```bash
-ionic serve
-```
-
-**5. Para compilar e executar em dispositivos móveis:**
-
-  * **Android:**
-    ```bash
-    ionic cordova platform add android
-    ionic cordova run android
-    ```
-
-
